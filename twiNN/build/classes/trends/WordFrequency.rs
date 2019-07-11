@@ -1,2 +1,0 @@
-trends.WordFrequencyComparator
-trends.WordFrequency

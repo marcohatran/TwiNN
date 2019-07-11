@@ -1,3 +1,0 @@
-30.9 tweet/sec
-28.6 tweet/sec
-33.3 tweet/sec
