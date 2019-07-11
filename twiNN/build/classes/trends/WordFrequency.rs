@@ -1,0 +1,2 @@
+trends.WordFrequencyComparator
+trends.WordFrequency
