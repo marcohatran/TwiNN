@@ -24,8 +24,6 @@ public class Translator implements Runnable{
 
           conecateString(bTran);
          
-        // runner = new Thread(this, threadname);
-         //runner.start();
      }
      void conecateString(String twits )
      {
@@ -36,8 +34,8 @@ public class Translator implements Runnable{
  public void run() {
 
         try {
-            Translate.setHttpReferrer("http://symbateur.blogspot.com/");
-           // Translate.setKey("AIzaSyAMY0aW_RgWOAQaOTrfK-eP4b0IXZV7v6o"); //setHttpReferrer(" asdf");//"http://symbateur.blogspot.com/"/
+            Translate.setHttpReferrer("http:/*******/");
+          
 String[] afterTran= new String [beforeTran.length];
          
 for (int i = 0; i < beforeTran.length; i++) {
@@ -46,21 +44,9 @@ for (int i = 0; i < beforeTran.length; i++) {
             if( afterTran[i]==null)
                 afterTran[i]="0";
 }
-           /* System.out.println("tiwit:" + afterTran[0]);
-            System.out.println("tiwit:" + afterTran[1]);
-            System.out.println("tiwit:" + afterTran[2]);
-            System.out.println("tiwit:" + afterTran[3]);
-            // System.out.println("tiwit:"+ afterTran[4]);*/
+          
             System.out.println("TransNow : " + DateUtils.now());
-   /*     try {
-            //for i
-            HelloLucene.HelloLucene(afterTran);
-            } catch (IOException ex) {
-            Logger.getLogger(Translator.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (ParseException ex) {
-            Logger.getLogger(Translator.class.getName()).log(Level.SEVERE, null, ex);
-            }
-             */
+   /
         } catch (Exception ex) {
             Logger.getLogger(Translator.class.getName()).log(Level.SEVERE, null, ex);
         }
