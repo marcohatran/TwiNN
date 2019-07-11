@@ -1,2 +1,0 @@
-estmaxtwitter.NodeitemComparator
-estmaxtwitter.Node

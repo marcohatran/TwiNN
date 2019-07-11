@@ -1,2 +1,0 @@
-estmaxtwitter.Transaction
-estmaxtwitter.StringloxiComparator
